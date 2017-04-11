@@ -1,14 +1,14 @@
 {
     "collab_server" : "",
-    "contents" : "---\nlayout: post\ntitle: \"April 18, 2017  Pre-Class\"\ntags: [R, dplyr]\n---\n  \n## Reading\n\nFor your Reading:\n\n- [The Split Apply Combine Method](https://www.jstatsoft.org/article/view/v040i01)\n- [Tidy Data](http://statseducation.com/Introduction-to-R/modules/tidy%20data/tidy-data/)\n\n## Videos\n\n1. Complete the DataCamp assignment you have received. \n2. Make sure you have read the [Tidy Data Tutorial](http://statseducation.com/Introduction-to-R/modules/tidy%20data/tidy-data/)\n\n\n## Make Up Classes\n\n- The snow day really affected our class schedule. \n- On top of this I have been called to a meeting in Boston on April 25, 2017\n- I am asking you to sign up for 2 extra classes\n- This will cover the snow day we missed as well as missing class on April 25. \n- This means that the first week of May we will ahve 2 classes.\n\n\n[Please Fill In One class In the last week for April and 1st Week of May](https://docs.google.com/spreadsheets/d/1x-IDRAGtXW4XN1B4EtZiiWFSV3ff8IBKyery_A3zGjE/edit#gid=0)\n\n  \n  ",
+    "contents" : "---\nlayout: post\ntitle: \"April 18, 2017  Pre-Class\"\ntags: [R, dplyr]\n---\n  \n\n## Part 1: Graphics in R\n\n### Reading\n\nFor your Reading:\n\n- [ggplot Cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)\n- [ggplot page](http://statseducation.com/Introduction-to-R/modules/graphics/ggplot2/)\n\n\n### Videos\n\n1. Complete the DataCamp assignment you have received. \n2. Make sure you have read the [ggplot page](http://statseducation.com/Introduction-to-R/modules/graphics/ggplot2/)\n\n\n\n\n## Part 2: Starting Shiny Project\n\n\nGo to the [Shiny](http://shiny.rstudio.com/) website.\n  - Explore the [gallery](http://shiny.rstudio.com/gallery/) of Project ideas. \n  - Follow the [Tutorial](http://shiny.rstudio.com/tutorial/)\n  - Go through this [Walkthrough by Dean Attali](http://deanattali.com/blog/building-shiny-apps-tutorial/)\n  - To show you have done this, create a simple app that takes a standard normal statistic and displays the probability of achieving that value or greater in a standard normal distribution. In other words it takes a \\(z\\) value and gives a p-value. ",
     "created" : 1491937461080.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "4215214508",
+    "hash" : "404043321",
     "id" : "E385C892",
-    "lastKnownWriteTime" : 1491942056,
-    "last_content_update" : 1491942056828,
+    "lastKnownWriteTime" : 1491942146,
+    "last_content_update" : 1491942146306,
     "path" : "C:/Users/adam_/Dropbox/Brown/PHP2560/preclass/_posts/2017-04-18-pre-class.md",
     "project_path" : "_posts/2017-04-18-pre-class.md",
     "properties" : {
