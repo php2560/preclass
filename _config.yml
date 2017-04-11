@@ -45,9 +45,14 @@ footer-links-active:
 # How to display the link to the website in the footer
 url-pretty: "http://php2560"
 
-# --- Pagination options --- #
-paginate: 5
-paginate_path: "http://php2560.com/preclass/page:num/"
+# --- Outputting options --- #
+# More information can be found on Jekyll's site
+timezone: "America/New York"
+markdown: kramdown
+highlighter: rouge
+permalink: /blog/:title/
+paginate: 10
+paginate_path: "/page:num/"
 
 # --- Misc --- #
 
@@ -60,14 +65,7 @@ disqus: "php2560"
 google_analytics: "UA-93049117-1"
 
 
-# --- Don't need to touch anything below here (but you can if you want) --- #
-# Output options (more information on Jekyll's site)
-timezone: "America/Eastern"
-markdown: kramdown
-highlighter: Rouge
-permalink: /:year-:month-:day-:title
-
-# Default YAML values (more information on Jekyll's site)
+# Default YAML values (more information on Jekyll's site)  
 defaults:
   -
     scope:
@@ -75,7 +73,10 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
+      comments: true  # add comments to all blog posts 		
+      show-share: true # add sharing buttons to all blog posts		
+      show-subscribe: true # add subscribe email to all blog posts
+      addthis-plugin: true
   -
     scope:
       path: "" # all files
