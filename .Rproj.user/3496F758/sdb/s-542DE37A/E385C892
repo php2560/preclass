@@ -1,14 +1,14 @@
 {
     "collab_server" : "",
-    "contents" : "---\nlayout: post\ntitle: \"April 18, 2017  Pre-Class\"\ntags: [R, dplyr]\n---\n  \n\n## Part 1: Graphics in R\n\n### Reading\n\nFor your Reading:\n\n- [ggplot Cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)\n- [ggplot page](http://statseducation.com/Introduction-to-R/modules/graphics/ggplot2/)\n\n\n### Videos\n\n1. Complete the DataCamp assignment you have received. \n2. Make sure you have read the [ggplot page](http://statseducation.com/Introduction-to-R/modules/graphics/ggplot2/)\n\n\n\n\n## Part 2: Starting Shiny Project\n\n\nGo to the [Shiny](http://shiny.rstudio.com/) website.\n  - Explore the [gallery](http://shiny.rstudio.com/gallery/) of Project ideas. \n  - Follow the [Tutorial](http://shiny.rstudio.com/tutorial/)\n  - Go through this [Walkthrough by Dean Attali](http://deanattali.com/blog/building-shiny-apps-tutorial/)\n  - To show you have done this, create a simple app that takes a standard normal statistic and displays the probability of achieving that value or greater in a standard normal distribution. In other words it takes a \\(z\\) value and gives a p-value. ",
+    "contents" : "---\nlayout: post\ntitle: \"April 18, 2017  Pre-Class\"\ntags: [R, ggplot2, shiny]\n---\n  \n\n## Part 1: Graphics in R\n\n### Reading\n\nFor your Reading:\n\n- [ggplot Cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf)\n- [ggplot page](http://statseducation.com/Introduction-to-R/modules/graphics/ggplot2/)\n\n\n### Videos\n\n1. Complete the DataCamp assignment you have received. \n2. Make sure you have read the [ggplot page](http://statseducation.com/Introduction-to-R/modules/graphics/ggplot2/)\n\n\n\n\n## Part 2: Starting Shiny Project\n\n\nGo to the [Shiny](http://shiny.rstudio.com/) website.\n  - Explore the [gallery](http://shiny.rstudio.com/gallery/) of Project ideas. \n  - Follow the [Tutorial](http://shiny.rstudio.com/tutorial/)\n  - Go through this [Walkthrough by Dean Attali](http://deanattali.com/blog/building-shiny-apps-tutorial/)\n  - To show you have done this, create a simple app that takes a standard normal statistic and displays the probability of achieving that value or greater in a standard normal distribution. In other words it takes a \\(z\\) value and gives a p-value. ",
     "created" : 1491937461080.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "404043321",
+    "hash" : "2193124386",
     "id" : "E385C892",
-    "lastKnownWriteTime" : 1491942146,
-    "last_content_update" : 1491942146306,
+    "lastKnownWriteTime" : 1491942213,
+    "last_content_update" : 1491942213639,
     "path" : "C:/Users/adam_/Dropbox/Brown/PHP2560/preclass/_posts/2017-04-18-pre-class.md",
     "project_path" : "_posts/2017-04-18-pre-class.md",
     "properties" : {
