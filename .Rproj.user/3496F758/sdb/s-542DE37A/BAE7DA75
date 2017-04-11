@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\nlayout: post\ntitle: \"March 7, 2017 - Pre-Class\"\ntags: [R, RMarkdown, Github, Functions]\n---\n\n\n\n\n\n\n\n\n# Further Github Page Setup\n\n\n## Set up Disqus\n\n1. Go to [Disqus](https://disqus.com)\n2. Sign in with your e-mail. \n3. Add Disqus to your site by filling out this [form](https://disqus.com/admin/create/)\n\n\n**Note: You will then receive a shortname**\n\n4. Go into your github page and place the shortname in the `config.toml` file. \n\n\n## Load In Class lab from February 28, 2017\n\nYou can actually add your lab in as a post on your website. \n\n1. Click on the `addins` button right below the menus and above your markdown window. \n2. Click `New Post`\n3. Name this post: `February 28, 2017 - In-Class Project`\n4. Copy the contents from your lab into this and make sure you have completed all of the functions. \n5. Save the changes to this document and run:\n```\nblogdown::build_course()\n```\n6. Now push the changes to your github page and make sure the project displays on your webpage.\n\n\n\n\n\n\n# Further R Functions Practice\n\nIt is crucial to make sure we have a strong foundation with R Functions. In order to make sure of this we will be extending out function creation and debugging another week. Here is what you will accomplish:\n\n- More Function Tutorials/Practice\n- The start of a lab for this week. \n\nAs you start this assignment, please comment below with your github username so that I can let everyone know whose github pages to go to. \n\n## Functions Practice for this Week\n\n1. Complete the DataCamp assignment you have received. \n2. Make sure you have read the [DataCamp Functions Tutorial](https://www.datacamp.com/community/tutorials/functions-in-r-a-tutorial#gs.lva4hyE)\n3. Read the [Functions Chapter](http://r4ds.had.co.nz/functions.html) in [R For Data Science](http://r4ds.had.co.nz/)\n4. Complete the practice from below and load it on your website as a new post by ***Monday, March 6, 2017 at 12:00pm***\n\n\n\n\n## Pre Class Project:\n\n[Markdown File Here](https://github.com/php2560/preclass/blob/master/2017-03-02-march-7-2017-pre-class.Rmd)\n\n\n\n\n### Jackknife of the Mean!\n\n- Have an estimator $\\hat{\\theta}$ of parameter $\\theta$  \n  want the standard error of our estimate, $se_{\\hat{\\theta}}$\n- The jackknife approximation:\n    + omit case $i$, get estimate $\\hat{\\theta}_{(-i)}$\n    + Take the variance of all the $\\hat{\\theta}_{(-i)}$\n    + multiply that variance by $\\frac{(n-1)^2}{n}$ to get $\\approx$ variance of $\\hat{\\theta}$\n- then $se_{\\hat{\\theta}}=$ square root of that variance\n\n<small>(Why $(n-1)^2 / n$?  Think about just getting the standard\n    error of the mean)</small>\n\n\n\nWrite a function called `mean.jackknife` that takes argument `a_vector` and returns a jackknife estimate of the standard error.\n\n\n```{r, eval=FALSE}\nmean.jackknife <- function(a_vector) {\n  # Put your function in here\n  return(jackknife.stderr)\n}\n```\n\n\n\n## Jackknife for the mean Example: test your code here\n\n\n```{r, eval = FALSE}\nsome_normals <- rnorm(100,mean=7,sd=5)\nmean(some_normals)\n(formula_se_of_mean <- sd(some_normals)/sqrt(length(some_normals)))\nall.equal(formula_se_of_mean,mean.jackknife(some_normals))\n```\n\n",
+    "created" : 1491760945031.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1993215200",
+    "id" : "BAE7DA75",
+    "lastKnownWriteTime" : 1491766406,
+    "last_content_update" : 1491766406,
+    "path" : "C:/Users/adam_/Dropbox/Brown/PHP2560/preclass/_posts/2017-03-02-pre-class.md",
+    "project_path" : "_posts/2017-03-02-pre-class.md",
+    "properties" : {
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "markdown"
+}
