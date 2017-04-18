@@ -50,7 +50,7 @@ url-pretty: "http://php2560"
 timezone: "America/New York"
 markdown: kramdown
 highlighter: rouge
-permalink: /blog/:title/
+permalink: /blog/:year/:month/:day/:title/
 paginate: 10
 paginate_path: "/page:num/"
 
